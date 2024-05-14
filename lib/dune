@@ -1,2 +1,7 @@
 (library
  (name interpreter_ml))
+
+(env
+ (dev
+  (flags (:standard -w -a))))
+

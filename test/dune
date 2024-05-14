@@ -1,2 +1,8 @@
 (test
- (name test_interpreter_ml))
+ (name test_interpreter_ml)
+ (libraries ounit2 interpreter_ml))
+
+(env
+ (dev
+  (flags (:standard -w -a))))
+

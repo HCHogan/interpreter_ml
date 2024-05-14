@@ -1,1 +1,7 @@
-let () = print_endline "Hello, World!"
+open Interpreter_ml.Ast
+
+(* let parse (s : string) : expr = *)
+(*   let lexbuf = Lexing.from_string s in *)
+(*   let ast = Parser.prog Lexer.read lexbuf in *)
+(*   ast *)
+

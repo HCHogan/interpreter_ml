@@ -2,3 +2,8 @@
  (public_name interpreter_ml)
  (name main)
  (libraries interpreter_ml))
+
+(env
+ (dev
+  (flags (:standard -w -a))))
+
